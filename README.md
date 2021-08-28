@@ -6,4 +6,9 @@ I'm making a Windows 11 style "desktop" in HTML+CSS+JS because I've seen a lot o
 
 The idea is to have as consistent flow as I can while maintaining a desktop-like functionality. Maybe I'll even throw this in Wallpaper Engine and use it for something useful.
 
-For now, it's just the one WindowElement class, but I'll be expanding that as much as I can.
+For now, it's just the one WindowElement class, but I'll be expanding that as much as I can. The simplest way to add one right now is by running this in the console:
+```js
+document.body.appendChild(new  WindowElement().node)
+```
+
+A hosted version is available here: https://aryn.dev/winui
