@@ -1,0 +1,84 @@
+body {
+	overflow: hidden;
+}
+
+.window {
+	position: absolute;
+	border-radius: 12px;
+	min-width: 200px;
+	min-height: 100px;
+	width: 1200px;
+	height: 600px;
+	background-color: #ddd;
+	border: 1px solid #aaa;
+	resize: both;
+	overflow: auto;
+	z-index: 1;
+}
+
+.focus {
+	z-index: 2;
+}
+
+.fullscreen {
+	width: 100% !important;
+	height: 100% !important;
+	outline: none !important;
+}
+
+.windowbar {
+	background-color: #aaa;
+	height: 30px;
+	width: 100%;
+	min-height: 30px;
+	min-width: 100%;
+	max-height: 30px;
+	max-width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: flex-start;
+	align-items: flex-start;
+}
+
+::-webkit-resizer {
+	display: none;
+}
+
+.windowbarspacer {
+	flex: 10 0 auto;
+}
+
+.windowbarbutton {
+	flex: 1 0 auto;
+	max-width: 40px;
+	max-height: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: stretch;
+	align-items: stretch;
+	transition: 300ms;
+}
+
+.windowbarbutton:hover {
+	background-color: red;
+}
+
+.windowbarbutton>svg {
+	max-width: 60%;
+	max-height: 100%;
+	min-width: 60%;
+	min-height: 100%;
+	margin: auto;
+}
+
+.w11-button {
+	border-radius: 12px;
+	outline: none;
+	padding: 10px;
+	background-color: green;
+}

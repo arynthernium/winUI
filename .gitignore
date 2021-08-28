@@ -1,0 +1,2 @@
+favicon.ico
+# Chrome had an error in the console for not being able to find a favicon on my local test server. I didn't like it so I made an empty favicon.ico file and didn't want to commit it. Yes I use Chrome for testing. Hush.
