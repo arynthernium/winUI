@@ -1,0 +1,22 @@
+.context {
+	position: absolute;
+	border-radius: 1vh;
+}
+
+.contextitem {
+	background: none;
+	border: 1px solid #ddd;
+	outline: none;
+	border-radius: 1vh;
+	padding: 1vh;
+	margin: 1vh;
+	color: #ddd;
+}
+
+.divider {
+	width: calc(100% - 2vh);
+	height: 1px;
+	background-color: #ddd;
+	padding: 0;
+	margin: auto;
+}

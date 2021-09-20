@@ -6,9 +6,8 @@ I'm making a Windows 11 style "desktop" in HTML+CSS+JS because I've seen a lot o
 
 The idea is to have as consistent flow as I can while maintaining a desktop-like functionality. Maybe I'll even throw this in Wallpaper Engine and use it for something useful.
 
-For now, it's just the one WindowElement class, but I'll be expanding that as much as I can. The simplest way to add one right now is by running this in the console:
-```js
-document.body.appendChild(new  WindowElement().node)
-```
+I've placed buttons on the taskbar (the bottom bar) that open a new window (left button) and change the background, and eventually the theme, to dark (right button). 
+
+I made a fairly okay version of the Mica material from Microsoft's material stuff using CSS `backdrop-blur`, `background-color`, and transparency. It's under the `mica` class name, which can be applied to any node (but it works best on nodes which have the `windowcontent` class already). I'll be improving this in the future, probably.
 
 A hosted version is available here: https://aryn.dev/winui
