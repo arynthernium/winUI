@@ -1,3 +1,5 @@
+## This project has been discontinued. I decided to restart. The new project will be available at [arynthernium/win11](https://github.com/arynthernium/win11).
+
 # winUI
 
 I'm making a Windows 11 style "desktop" in HTML+CSS+JS because I've seen a lot of hate on how inconsistent it's turning out to be. Namely [this post](https://www.reddit.com/r/Windows11/comments/pcmkc0/dear_microsoft_if_youre_touting_your_interface_to/) from earlier today on the [r/windows11](https://www.reddit.com/r/Windows11) subreddit.
