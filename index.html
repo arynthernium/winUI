@@ -8,13 +8,14 @@
 	<link rel="stylesheet" href="resources/css/windows.css">
 	<script src="resources/js/helpers.js"></script>
 	<script src="resources/js/main.js"></script>
-	<!-- <script src="resources/js/desktop.js"></script> IN PROGRESS -->
+	<script src="resources/js/desktop.js"></script>
 	<script src="resources/js/context.js"></script>
 	<script src="resources/js/windows.js"></script>
 </head>
 
-<body onmousedown="event.preventDefault(); selector(event);" oncontextmenu="new ContextMenu(event);">
-	<div id="taskbar" class="mica">
+<body onload="selector(this);" onmousedown="event.preventDefault(); selector(event);"
+	oncontextmenu="new ContextMenu(event);">
+	<div id="taskbar" class="acrylic">
 		<div class="taskbaritem">
 			<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" onclick="newWindow();"
 				id="newwindow">

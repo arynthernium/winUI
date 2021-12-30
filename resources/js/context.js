@@ -3,7 +3,7 @@ class ContextMenu {
 	constructor(e, options = [{ "name": "Fullscreen", "type": "action", action: fullscreenWindow }, { "name": "Fullscreen", "type": "divider" }, { "name": "Fullscreen", "type": "action", action: fullscreenWindow }]) {
 		if (e.shiftKey) return;
 		e.preventDefault();
-		const node = createItem('div', ['context', 'mica']);
+		const node = createItem('div', ['context', 'acrylic']);
 		options.forEach(item => {
 			switch (item.type) {
 				case "action":
